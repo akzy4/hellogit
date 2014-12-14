@@ -2,13 +2,13 @@
 
 /**
  * 送料計算用クラス。
- * 
+ *
  * @author 翔泳社
  */
 public class Shipping {
 
     /**
-     * サイズSを表す定数。
+     * サイズSを表す定数。。。。
      */
     private static final int SIZE_S = 1;
 
@@ -24,7 +24,7 @@ public class Shipping {
 
     /**
      * 荷物の送料を計算する。
-     * 
+     *
      * @param weight
      *            重量
      * @param x
@@ -49,7 +49,8 @@ public class Shipping {
         // 仕様3に対応。
         // 重量だけから求めたサイズと
         // 3辺の合計だけから求めたサイズを比較して
-        // 大きいサイズのものが荷物のサイズとなる。
+        // 大きいサイズのものが
+        // 荷物のサイズとなる。
         int weightSize = getWeightSize(weight);
         int totalSize = getTotalSize(total);
         int size = Math.max(weightSize, totalSize);
@@ -71,7 +72,7 @@ public class Shipping {
 
     /**
      * 重量をベースとしたサイズを取得する。
-     * 
+     *
      * @param weight
      *            重量
      * @return 重量だけで求めたサイズ
@@ -88,7 +89,7 @@ public class Shipping {
 
     /**
      * 3辺の合計をベースとしたサイズを取得する。
-     * 
+     *
      * @param total
      *            3辺の合計
      * @return 3辺の合計だけで求めたサイズ
