@@ -46,7 +46,9 @@ public class Shipping {
             throw new IllegalArgumentException();
         }
 
-        // 仕様3に対応。
+        // 仕様3
+        // に
+        // 対応。
         // 重量だけから求めたサイズと
         // 3辺の合計だけから求めたサイズを比較して
         // 大きいサイズのものが
